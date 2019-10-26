@@ -1,0 +1,56 @@
+
+.recordadd {
+    font-size: 20px;
+    color: green;
+}
+* {
+    font-family: arial;
+}
+a:link{
+    color: #006AA9;
+}
+a:visited{
+    color: #666666;
+}
+a:hover{
+    color: black;
+}
+th, h2 {
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+table {
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 800px;}
+th, td {
+    padding: 10px;}
+tr:nth-child(even) {
+    background: #CCC;}
+tr:nth-child(odd) {
+    background: #FFF;}
+tr:hover {
+    background: pink;}
+td:hover {
+    background: red;}
+input {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #454545;
+  font-size: 16px;
+  background: #ccc;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+input:hover {
+  background: #a3a3a3;
+  text-decoration: none;
+}

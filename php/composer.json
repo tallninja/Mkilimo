@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": ">= 7.2.10",
+        "africastalking/africastalking": "2.0.1",
+        "altorouter/altorouter": "1.1.0"
+    }
+}

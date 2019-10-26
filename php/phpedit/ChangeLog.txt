@@ -1,0 +1,29 @@
+ToDo list moved to https://sourceforge.net/tracker/?group_id=337548&atid=1413994
+                   (https://sourceforge.net/projects/phpmysqlezedit then click on Tracker - Feature Requests)
+
+Known Issue:    HTML single line input does not accept end of line characters.
+                So to store a multiple line entry correctly, it is necessary to have TEXTAREA instead.
+                This application will only invoke TEXTREA after a field contains 100+ characters.
+r8 - 2/20/2015 - Added Style Sheets for a bit more Pretty plus technical code revisions for later PHP.
+r4 - 7/18/2011 - Added sample installation instructions to readme.txt
+r3 - 7/18/2011 - Removed prior configuration location line
+r2 - 4/25/2011 - Added to SVN repository
+r1 - 4/25/2011 - Initialized SVN
+4/24/2011 - Added "Record Changed" at top of page to save routine along with some notes on usage.
+4/24/2011 - Modified code to allow special chars and html coding to be SAVED during capture to mysql in both regular input and TEXTAREA
+4/24/2011 - Fixed bug blocking submission of data for field name "submit"
+4/24/2011 - Changed fields with contents over 100 characters to TEXTAREA instead of INPUT.
+4/24/2011 - Field comments are now "hints" when modifying a field just as they are when adding a field.
+4/24/2011 - Repaired bug for unused add/mod/del scripts (check length before attempting to include)
+4/23/2011 - Added preference for add/mod/del (setting to '0' will disable the activity, overriding general ability)
+4/23/2011 - Added htmlencode to view all text (so html in a field will display as text)
+4/23/2011 - Removed "Table to view" and dropdown if "tablelock" active
+4/23/2011 - Added Title and Greeting Variables
+4/23/2011 - Changed licensing to http://creativecommons.org/licenses/by-sa/3.0/ (Attribution-ShareAlike 3.0 Unported)
+4/23/2011 - Added /etc/poundteam/phpmysqlezedit.php preferences storage and added sample to readme.txt
+4/23/2011 - Added debug=phpinfo URL option
+1/3/2011 - Added include variables to include a php file after add/modify/delete (uncomment and put in page names)
+1/3/2011 - Added simple security (Change XXXX to a password at top of the file)
+1/3/2011 - Added single table lock (uncomment and put in the table name)
+7/1/2010 - Added "Delete"
+7/1/2010 - Added "Modify" and "Add"
